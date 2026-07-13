@@ -106,9 +106,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  sprintf(numrray, "%d\n", number);
+	  sprintf(numrray, "%d\n", number);  // in ket qua vao mang numrray. dinh dang la so nguyen
 
-	  HAL_UART_Transmit(&huart2, numrray, 4, 1000);
+	  HAL_UART_Transmit(&huart2, numrray, 4, 1000);   //
 	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
